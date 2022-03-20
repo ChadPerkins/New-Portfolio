@@ -1,0 +1,47 @@
+.contact-form form {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 0.5rem;
+}
+
+.form-control {
+    width: 35ch;
+
+}
+
+.send-button {
+    height: 2.5rem;
+    width: 100%;
+    font-size: 1rem;
+    border: 4/5px solid rgba(328, 328, 350, 0.5);
+    border-radius: 12px;
+    background-color: transparent;
+    color: #363cdf;
+    font: 700 20px "Lato", sans-serif;
+    letter-spacing: 2px;
+    transition-duration: 0.2s;
+}
+
+.send-button:hover {
+    cursor: pointer;
+    color: #d3cccc;
+    background-color: #8536df;
+}
+
+@media (max-width: 825px) {
+    .send-button {
+        width: 60%;
+    }
+    .form-control {
+        width: 30ch;
+    }
+}
+
+@media (max-width: 525px) {
+    
+    .form-control {
+        width: 25ch;
+    }
+}
