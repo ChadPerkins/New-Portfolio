@@ -1,11 +1,9 @@
-import { useState } from "react";
-
 import "./ContactForm.css";
 
 function ContactForm() {
     return (
             <form
-                id="contact-form"
+                className="contact-form"
                 name="contact"
                 action="POST"
                 data-netlify="true"
