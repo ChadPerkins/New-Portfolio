@@ -3,31 +3,12 @@ import { useState } from "react";
 import "./ContactForm.css";
 
 function ContactForm() {
-    const [submitted, setSubmitted] = useState(false);
-
-    const handleSubmit = () => {
-        setTimeout(() => {
-            setSubmitted(true);
-        }, 100);
-    };
-
-    if (submitted) {
-        return (
-            <>
-                <div className="">Thank you!</div>
-
-                <div className="">We'll be in touch soon.</div>
-            </>
-        );
-    }
-
     return (
             <form
                 id="contact-form"
                 name="contact"
                 action="POST"
                 data-netlify="true"
-                onSubmit={handleSubmit}
             >
                 <div className="form-group">
                     <input
