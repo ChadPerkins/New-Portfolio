@@ -24,7 +24,6 @@ function ContactForm() {
     return (
             <form
                 id="contact-form"
-                role="form"
                 name="contact"
                 data-netlify="true"
                 onSubmit={handleSubmit}
