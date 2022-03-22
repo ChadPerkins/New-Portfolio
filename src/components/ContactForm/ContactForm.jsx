@@ -22,7 +22,6 @@ function ContactForm() {
     }
 
     return (
-        <div className="contact-form">
             <form
                 id="contact-form"
                 role="form"
@@ -78,7 +77,7 @@ function ContactForm() {
                     <span className="send-text">SEND</span>
                 </button>
             </form>
-        </div>
+        
     );
 }
 
