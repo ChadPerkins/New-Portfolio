@@ -5,7 +5,7 @@ function ContactForm() {
         <form
             className="contact-form"
             name="contact"
-            method="POST"
+            method="post"
         >
             <input type="hidden" name="form-name" value="contact" />
             <div className="form-group">
