@@ -1,8 +1,5 @@
 .projects-section {
-    display: grid;
-    justify-items: center;
     margin: 0 1rem;
-    
 }
 
 .skill-list {
@@ -12,19 +9,27 @@
     color: #d3cccc;
 }
 
-.skill-list h2 {
+.skill-list h1 {
     font-size: 60px;
 }
 
-.skill-icon {
-    font-size: 5rem;
+.skill-icons, .tech-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.icon {
+    text-align: center;
     margin: 1rem 1rem;
+}
+
+.skill-icon, .tech-icon {
+    font-size: 5rem;
     color: #8536df;
 }
 
 .project-cards {
     display: flex;
     flex-direction: row;
-    /* flex-wrap: wrap; */
-
 }

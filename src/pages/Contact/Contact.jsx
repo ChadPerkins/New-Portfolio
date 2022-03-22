@@ -7,7 +7,7 @@ import "./Contact.css";
 function Contact() {
     return (
         <section className="contact-section">
-            <h1 className="contact-header">&#60;Contact Me&#47;&#62;</h1>
+            <h1 className="contact-header">Contact Me</h1>
             <div className="contact-wrapper">
                 <div className="direct-contact-container">
                     <img className="my-pic" src={myPic} alt="Me" />

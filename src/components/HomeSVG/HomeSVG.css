@@ -1,6 +1,8 @@
 #dev-logo {
-    padding-top: 10px;
+    height: fit-content;
+    margin-bottom: 1rem;
     max-width: 90%;
+    stroke-width: 6;
 }
 
 #dev-logo path:nth-child(2) {

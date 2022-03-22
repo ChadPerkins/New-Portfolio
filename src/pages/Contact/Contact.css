@@ -83,8 +83,10 @@ hr {
 }
 
 @media (max-width: 525px) {
+    .contact-header {
+        font-size: 35px;
+    }
     .contact-text {
-        font-size: 20px;
         letter-spacing: 0px;
     }
 }

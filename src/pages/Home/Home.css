@@ -2,13 +2,19 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #d3cccc;
+}
+
+.home-content p {
+    font-size: 35px;
+    margin-bottom: 0.5rem;
 }
 
 .my-name {
     max-width: 80%;
     font-size: 60px;
-    color: #d3cccc;
     text-align: center;
+    margin-bottom: 1.5rem;
 }
 
 .my-pic {
@@ -27,6 +33,10 @@
         margin: 0;
     }
 
+    .home-content p {
+        font-size: 20px;
+    }
+    
     .my-name {
         font-size: 45px;
     }
