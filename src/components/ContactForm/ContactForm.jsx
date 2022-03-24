@@ -5,7 +5,8 @@ function ContactForm() {
         <form
             className="contact-form"
             name="contact"
-            method="post"
+            method="POST"
+            data-netlify="true"
         >
             <input type="hidden" name="form-name" value="contact" />
             <div className="form-group">
