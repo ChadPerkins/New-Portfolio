@@ -30,7 +30,7 @@ function ProjectCard() {
                                         className="project-svg"
                                         target="_blank"
                                         rel="noreferrer"
-                                        href={projects.url}
+                                        href={project.url}
                                     >
                                         <MdPageview />
                                     </a>
