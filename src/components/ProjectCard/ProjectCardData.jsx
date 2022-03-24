@@ -25,6 +25,6 @@ export const projects = [
             "My first personal portfolio (previous to this). Created with HTML, CSS, Javasctipt and React",
         img: Portfolio,
         github: "https://github.com/ChadPerkins/Portfolio",
-        url: "https://enigmatic-cliffs-90841.herokuapp.com/",
+        url: "https://rad-pika-1ba6b8.netlify.app/",
     },
 ];
