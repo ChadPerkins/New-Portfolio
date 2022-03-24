@@ -13,7 +13,8 @@
 }
 
 .ece-pic {
-    max-width: 450px;
+    width: 450px;
+    max-width: 80vw;
 }
 
 .about-me {
