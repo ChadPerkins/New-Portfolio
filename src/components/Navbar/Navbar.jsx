@@ -32,17 +32,17 @@ function Navbar() {
                             </Link>
                         </li>
                         <li className="navbar-link">
-                            <Link to="/About">
+                            <Link to="/about">
                                 <span onClick={() => setShowLinks(false)} className="nav-text">About</span>
                             </Link>
                         </li>
                         <li className="navbar-link">
-                            <Link to="/Projects">
+                            <Link to="/projects">
                                 <span onClick={() => setShowLinks(false)} className="nav-text">Projects</span>
                             </Link>
                         </li>
                         <li className="navbar-link">
-                            <Link to="/Contact">
+                            <Link to="/contact">
                                 <span onClick={() => setShowLinks(false)} className="nav-text">Contact</span>
                             </Link>
                         </li>
