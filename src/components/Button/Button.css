@@ -68,5 +68,7 @@
     }
 }
 @media (max-width: 660px) {
-    .contact-button {margin-top: 0;}
+    .contact-button {
+        margin-top: 0;
+    }
 }

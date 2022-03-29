@@ -28,22 +28,42 @@ function Navbar() {
                     <ul className="navbar-nav">
                         <li className="navbar-link">
                             <Link to="/">
-                                <span onClick={() => setShowLinks(false)} className="nav-text">Home</span>
+                                <span
+                                    onClick={() => {setShowLinks(false); setClick(false)}}
+                                    className="nav-text"
+                                >
+                                    Home
+                                </span>
                             </Link>
                         </li>
                         <li className="navbar-link">
                             <Link to="/about">
-                                <span onClick={() => setShowLinks(false)} className="nav-text">About</span>
+                                <span
+                                    onClick={() => {setShowLinks(false); setClick(false)}}
+                                    className="nav-text"
+                                >
+                                    About
+                                </span>
                             </Link>
                         </li>
                         <li className="navbar-link">
                             <Link to="/projects">
-                                <span onClick={() => setShowLinks(false)} className="nav-text">Projects</span>
+                                <span
+                                    onClick={() => {setShowLinks(false); setClick(false)}}
+                                    className="nav-text"
+                                >
+                                    Projects
+                                </span>
                             </Link>
                         </li>
                         <li className="navbar-link">
                             <Link to="/contact">
-                                <span onClick={() => setShowLinks(false)} className="nav-text">Contact</span>
+                                <span
+                                    onClick={() => {setShowLinks(false); setClick(false)}}
+                                    className="nav-text"
+                                >
+                                    Contact
+                                </span>
                             </Link>
                         </li>
                     </ul>
@@ -53,14 +73,20 @@ function Navbar() {
                             rel="noreferrer"
                             href="https://github.com/ChadPerkins"
                         >
-                            <FaGithub onClick={() => setShowLinks(false)} className="nav-text" />
+                            <FaGithub
+                                    onClick={() => {setShowLinks(false); setClick(false)}}
+                                className="nav-text"
+                            />
                         </a>
                         <a
                             target="_blank"
                             rel="noreferrer"
                             href="https://www.linkedin.com/in/chad-perkins-259307231/"
                         >
-                            <FaLinkedin onClick={() => setShowLinks(false)} className="nav-text" />
+                            <FaLinkedin
+                                    onClick={() => {setShowLinks(false); setClick(false)}}
+                                className="nav-text"
+                            />
                         </a>
                     </ul>
                 </div>
