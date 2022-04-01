@@ -17,28 +17,12 @@
     margin-bottom: 1.5rem;
 }
 
-.my-pic {
-    height: auto;
-    margin: 0.5rem;
-    max-height: auto;
-    max-width: 200px;
-    width: 25%;
-    border-radius: 50%;
-}
-
 @media (max-width: 660px) {
-    .home-content .my-pic {
-        height: 187px;
-        width: 140px;
-        margin: 0;
-    }
-
     .home-content p {
         font-size: 20px;
     }
-    
+
     .my-name {
         font-size: 45px;
     }
-
 }

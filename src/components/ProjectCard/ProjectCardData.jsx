@@ -7,7 +7,7 @@ export const projects = [
     {
         title: "Code-Snippets",
         description:
-            "A Codepen style clone created with React. This website has fully functional HTML, CSS and Javascript terminals with a window that updates as you type. This project has local stroage to save your progress",
+            "A Codepen style clone created with React. This website has fully functional HTML, CSS and Javascript terminals with a window that updates as you type. This project uses local stroage to save your progress",
         img: CodeSnippet,
         github: "https://github.com/ChadPerkins/Code-Snippet",
         url: "https://comfy-dragon-90f89e.netlify.app/",

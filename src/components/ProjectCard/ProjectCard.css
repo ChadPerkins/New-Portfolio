@@ -23,25 +23,27 @@
 .card img {
     max-height: auto;
     max-width: 100%;
+    margin: 0.5rem 0;
     vertical-align: middle;
 }
 
 .project-links {
     width: 100%;
-    margin-top: auto;
+    height: fit-content;
     display: flex;
+    margin: 0.5rem;
     justify-content: space-around;
-    
 }
 
 .project-svg {
     font-size: 2rem;
     color: #363cdf;
     transition-duration: 0.2s;
+    padding: 0 0.5rem;
+    padding-top: 0.5rem;
 }
 
 .project-svg:hover {
-    text-align: center;
     color: #d3cccc;
     background-color: #8536df;
     text-decoration: none;
