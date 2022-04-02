@@ -1,13 +1,13 @@
-import { DiHtml5, DiCss3 } from "react-icons/di";
+import { DiHtml5, DiCss3, DiPython } from "react-icons/di";
 import { IoLogoJavascript, IoLogoNodejs } from "react-icons/io";
 import {
     SiExpress,
-    SiReact,
-    SiMongodb,
-    SiLinux,
-    SiGit,
     SiFigma,
+    SiGit,
     SiGnubash,
+    SiLinux,
+    SiMongodb,
+    SiReact,
 } from "react-icons/si";
 
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
@@ -34,24 +34,29 @@ function Projects() {
                     </div>
 
                     <div className="icon">
+                        <DiPython className="skill-icon" />
+                        <p className="skill-text">Python</p>
+                    </div>
+
+                    <div className="icon">
                         <SiReact className="skill-icon" />
                         <p className="skill-text">React</p>
-                    </div>
-                    <div className="icon">
-                        <IoLogoNodejs className="skill-icon" />
-                        <p className="skill-text">NodeJS</p>
-                    </div>
-                    <div className="icon">
-                        <SiExpress className="skill-icon" />
-                        <p className="skill-text">Express</p>
-                    </div>
-                    <div className="icon">
-                        <SiMongodb className="skill-icon" />
-                        <p className="skill-text">MongoDB</p>
                     </div>
                 </div>
                 <h2>Technologies</h2>
                 <div className="tech-icons">
+                    <div className="icon">
+                        <IoLogoNodejs className="tech-icon" />
+                        <p className="skill-text">NodeJS</p>
+                    </div>
+                    <div className="icon">
+                        <SiExpress className="tech-icon" />
+                        <p className="skill-text">Express</p>
+                    </div>
+                    <div className="icon">
+                        <SiMongodb className="tech-icon" />
+                        <p className="skill-text">MongoDB</p>
+                    </div>
                     <div className="icon">
                         <SiGit className="tech-icon" />
                         <p className="skill-text">Git</p>
