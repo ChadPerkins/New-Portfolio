@@ -2,9 +2,7 @@ import { DiHtml5, DiCss3, DiPython } from "react-icons/di";
 import { IoLogoJavascript, IoLogoNodejs } from "react-icons/io";
 import {
     SiExpress,
-    SiFigma,
     SiGit,
-    SiGnubash,
     SiLinux,
     SiMongodb,
     SiReact,
