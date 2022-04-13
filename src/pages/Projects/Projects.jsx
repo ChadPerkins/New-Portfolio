@@ -8,6 +8,8 @@ import {
     SiLinux,
     SiMongodb,
     SiReact,
+    SiCsharp,
+    SiMicrosoftsqlserver
 } from "react-icons/si";
 
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
@@ -39,6 +41,11 @@ function Projects() {
                     </div>
 
                     <div className="icon">
+                        <SiCsharp className="skill-icon" />
+                        <p className="skill-text">C#</p>
+                    </div>
+
+                    <div className="icon">
                         <SiReact className="skill-icon" />
                         <p className="skill-text">React</p>
                     </div>
@@ -58,6 +65,10 @@ function Projects() {
                         <p className="skill-text">MongoDB</p>
                     </div>
                     <div className="icon">
+                        <SiMicrosoftsqlserver className="tech-icon" />
+                        <p className="skill-text">MSSQL Server</p>
+                    </div>
+                    <div className="icon">
                         <SiGit className="tech-icon" />
                         <p className="skill-text">Git</p>
                     </div>
@@ -65,14 +76,7 @@ function Projects() {
                         <SiLinux className="tech-icon" />
                         <p className="skill-text">Linux</p>
                     </div>
-                    <div className="icon">
-                        <SiFigma className="tech-icon" />
-                        <p className="skill-text">Figma</p>
-                    </div>
-                    <div className="icon">
-                        <SiGnubash className="tech-icon" />
-                        <p className="skill-text">Bash</p>
-                    </div>
+                                    
                 </div>
             </div>
             <ProjectCard className="project-card" />

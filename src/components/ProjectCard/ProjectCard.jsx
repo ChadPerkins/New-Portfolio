@@ -16,7 +16,9 @@ function ProjectCard() {
                                 <div className="img">
                                     <img src={project.img} alt="project" />
                                 </div>
-                                <p>{project.description}</p>
+                                <div className="project-info">
+                                    <p>{project.description}</p>
+                                </div>
                                 <div className="project-links">
                                     <a
                                         className="project-svg"
@@ -26,14 +28,15 @@ function ProjectCard() {
                                     >
                                         <AiFillCode />
                                     </a>
-                                    <a
+                                    {project.url != null ? <a
                                         className="project-svg"
                                         target="_blank"
                                         rel="noreferrer"
                                         href={project.url}
                                     >
                                         <MdPageview />
-                                    </a>
+                                    </a> : null }
+                                    
                                 </div>
                             </div>
                         </li>
