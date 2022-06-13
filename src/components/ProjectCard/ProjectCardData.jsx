@@ -4,8 +4,25 @@ import YelpCamp from "../../imgs/yelpcamp.png";
 import YtClone from "../../imgs/ytclone.png";
 import QuizApp from "../../imgs/quiz-app.png";
 import PwGen from "../../imgs/pwgen-gh.png";
+import Shooter2D from "../../imgs/2d-shooter.png";
+import Prototype1 from "../../imgs/prototype1.png";
 
 export const projects = [
+    {
+        title: "Prototype1",
+        description:
+            `This is the completed unit and project from the unit 1 part of the "Unity Junior Program Pathway" on unity's learning platform.`,
+        img: Prototype1,
+        github: "https://github.com/ChadPerkins/Prototype1",
+    },
+    {
+        title: "2D-Shooter",
+        description:
+            `This is the second project from the course "Game Design and Development 1: 2D Shooter" on coursera.`,
+        img: Shooter2D,
+        github: "https://github.com/ChadPerkins/2D-Shooter",
+        url: "https://chadperkins.itch.io/2d-shooter",
+    },
     {
         title: "Quiz-App",
         description:
