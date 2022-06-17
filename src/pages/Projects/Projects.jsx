@@ -1,4 +1,4 @@
-import { DiHtml5, DiCss3, DiPython } from "react-icons/di";
+import { DiHtml5, DiCss3 } from "react-icons/di";
 import { IoLogoJavascript } from "react-icons/io";
 import {
     SiUnity,
