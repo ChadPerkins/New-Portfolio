@@ -11,6 +11,7 @@ export default function Home() {
             <div className="home-content">
                 <p>Hello, I am</p>
                 <h1 className="my-name">CHAD PERKINS</h1>
+                <p>and I'm a</p>
                 <HomeSVG />
             </div>
             <Button />

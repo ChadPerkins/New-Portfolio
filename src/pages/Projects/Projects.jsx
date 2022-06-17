@@ -38,10 +38,6 @@ function Projects() {
                         <p className="skill-text">C#</p>
                     </div>
 
-                    <div className="icon">
-                        <DiPython className="skill-icon" />
-                        <p className="skill-text">Python</p>
-                    </div>
                 </div>
                 <h2>Technologies</h2>
                 <div className="tech-icons">

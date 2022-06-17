@@ -6,8 +6,24 @@ import QuizApp from "../../imgs/quiz-app.png";
 import PwGen from "../../imgs/pwgen-gh.png";
 import Shooter2D from "../../imgs/2d-shooter.png";
 import Prototype1 from "../../imgs/prototype1.png";
+import Prototype2 from "../../imgs/prototype2.png";
+import Prototype3 from "../../imgs/prototype3.png";
 
 export const projects = [
+    {
+        title: "Prototype3",
+        description:
+            `This is the completed unit and project from the unit 3 part of the "Unity Junior Program Pathway" on unity's learning platform.`,
+        img: Prototype3,
+        github: "https://github.com/ChadPerkins/Prototype3",
+    },
+    {
+        title: "Prototype2",
+        description:
+            `This is the completed unit and project from the unit 2 part of the "Unity Junior Program Pathway" on unity's learning platform.`,
+        img: Prototype2,
+        github: "https://github.com/ChadPerkins/Prototype2",
+    },
     {
         title: "Prototype1",
         description:
