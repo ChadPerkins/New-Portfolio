@@ -9,8 +9,16 @@ import Prototype1 from "../../imgs/prototype1.png";
 import Prototype2 from "../../imgs/prototype2.png";
 import Prototype3 from "../../imgs/prototype3.png";
 import Prototype4 from "../../imgs/prototype4.png";
+import Prototype5 from "../../imgs/prototype5.png";
 
 export const projects = [
+    {
+        title: "Prototype5",
+        description:
+            `This is the completed unit and project from the final part of the "Unity Junior Program Pathway" on unity's learning platform.`,
+        img: Prototype5,
+        github: "https://github.com/ChadPerkins/Prototype5",
+    },
     {
         title: "Prototype4",
         description:
