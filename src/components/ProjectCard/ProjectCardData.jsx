@@ -8,8 +8,16 @@ import Shooter2D from "../../imgs/2d-shooter.png";
 import Prototype1 from "../../imgs/prototype1.png";
 import Prototype2 from "../../imgs/prototype2.png";
 import Prototype3 from "../../imgs/prototype3.png";
+import Prototype4 from "../../imgs/prototype4.png";
 
 export const projects = [
+    {
+        title: "Prototype4",
+        description:
+            `This is the completed unit and project from the unit 4 part of the "Unity Junior Program Pathway" on unity's learning platform.`,
+        img: Prototype4,
+        github: "https://github.com/ChadPerkins/Prototype4",
+    },
     {
         title: "Prototype3",
         description:
