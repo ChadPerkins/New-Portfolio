@@ -10,8 +10,24 @@ import Prototype2 from "../../imgs/prototype2.png";
 import Prototype3 from "../../imgs/prototype3.png";
 import Prototype4 from "../../imgs/prototype4.png";
 import Prototype5 from "../../imgs/prototype5.png";
+import OpenGL1 from "../../imgs/OpenGL-GettingStarted.png";
+import OpenGL2 from "../../imgs/LightingAndModels.png";
 
 export const projects = [
+    {
+        title: "Lighting and Model Loading",
+        description:
+            `This is my completed work along project following the "Lighting" and "Model Loading" sections from the "LearnOpenGL.com" book.`,
+        img: OpenGL2,
+        github: "https://github.com/ChadPerkins/Prototype5",
+    },
+    {
+        title: "Getting Started with OpenGL",
+        description:
+            `This is my completed work along project following the "getting Started" section from the "LearnOpenGL.com" book.`,
+        img: OpenGL1,
+        github: "https://github.com/ChadPerkins/GettingStartedWithOpenGL",
+    },
     {
         title: "Prototype5",
         description:

@@ -7,6 +7,8 @@ import {
     SiReact,
     SiCsharp,
     SiMicrosoftsqlserver,
+    SiCplusplus,
+    SiOpengl
 } from "react-icons/si";
 
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
@@ -38,6 +40,11 @@ function Projects() {
                         <p className="skill-text">C#</p>
                     </div>
 
+                    <div className="icon">
+                        <SiCplusplus className="skill-icon" />
+                        <p className="skill-text">C++</p>
+                    </div>
+
                 </div>
                 <h2>Technologies</h2>
                 <div className="tech-icons">
@@ -46,6 +53,11 @@ function Projects() {
                         <p className="skill-text">React</p>
                     </div>
                     
+                    <div className="icon">
+                        <SiOpengl className="tech-icon" />
+                        <p className="skill-text">OpenGL</p>
+                    </div>
+
                     <div className="icon">
                         <SiUnity className="tech-icon" />
                         <p className="skill-text">Unity</p>
