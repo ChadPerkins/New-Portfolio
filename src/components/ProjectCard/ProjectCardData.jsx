@@ -12,8 +12,16 @@ import Prototype4 from "../../imgs/prototype4.png";
 import Prototype5 from "../../imgs/prototype5.png";
 import OpenGL1 from "../../imgs/OpenGL-GettingStarted.png";
 import OpenGL2 from "../../imgs/LightingAndModels.png";
+import Vulkan1 from "../../imgs/getting-started-with-vulkan.png";
 
 export const projects = [
+    {
+        title: "Getting started with Vulkan",
+        description:
+            `This is my project which follows along with the "vkguide.dev" Vulkan tutorial.`,
+        img: Vulkan1,
+        github: "https://github.com/ChadPerkins/Vulkan-Getting-Started",
+    },
     {
         title: "Lighting and Model Loading",
         description:
