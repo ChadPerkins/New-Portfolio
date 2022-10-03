@@ -13,8 +13,16 @@ import Prototype5 from "../../imgs/prototype5.png";
 import OpenGL1 from "../../imgs/OpenGL-GettingStarted.png";
 import OpenGL2 from "../../imgs/LightingAndModels.png";
 import Vulkan1 from "../../imgs/getting-started-with-vulkan.png";
+import Vulkan2 from "../../imgs/vulkan-2d-engine.png";
 
 export const projects = [
+    {
+        title: "Vulkan 2D Engine",
+        description:
+            `This is my 2D engine following along with Brendan Galea's "Game Engine Tutorials". This is the completed 2D part before the implementation of any 3D.`,
+        img: Vulkan2,
+        github: "https://github.com/ChadPerkins/Vulkan-2D-Engine",
+    },
     {
         title: "Getting started with Vulkan",
         description:

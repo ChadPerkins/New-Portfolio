@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import { FaGithub, FaLinkedin, FaBars, FaTimes } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaBars, FaTimes, FaFilePdf } from "react-icons/fa";
 
 import "./Navbar.css";
 
@@ -31,6 +31,7 @@ function Navbar() {
                                 <span
                                     onClick={() => {setShowLinks(false); setClick(false)}}
                                     className="nav-text"
+                                    title="Home page"
                                 >
                                     Home
                                 </span>
@@ -41,6 +42,7 @@ function Navbar() {
                                 <span
                                     onClick={() => {setShowLinks(false); setClick(false)}}
                                     className="nav-text"
+                                    title="About me"
                                 >
                                     About
                                 </span>
@@ -51,6 +53,7 @@ function Navbar() {
                                 <span
                                     onClick={() => {setShowLinks(false); setClick(false)}}
                                     className="nav-text"
+                                    title="My projects"
                                 >
                                     Projects
                                 </span>
@@ -61,6 +64,7 @@ function Navbar() {
                                 <span
                                     onClick={() => {setShowLinks(false); setClick(false)}}
                                     className="nav-text"
+                                    title="Contact me"
                                 >
                                     Contact
                                 </span>
@@ -76,6 +80,7 @@ function Navbar() {
                             <FaGithub
                                     onClick={() => {setShowLinks(false); setClick(false)}}
                                 className="nav-text"
+                                title="GitHub"
                             />
                         </a>
                         <a
@@ -86,6 +91,19 @@ function Navbar() {
                             <FaLinkedin
                                     onClick={() => {setShowLinks(false); setClick(false)}}
                                 className="nav-text"
+                                title="Linkedin"
+                            />
+                        </a>
+                        <a
+                            target="_blank"
+                            rel="noreferrer"
+                            href="../assets/Resume/ChadPerkinsResume.pdf"
+                            download="ChadPerkinsResume.pdf"
+                        >
+                            <FaFilePdf
+                                    onClick={() => {setShowLinks(false); setClick(false)}}
+                                className="nav-text"
+                                title="Resume"
                             />
                         </a>
                     </ul>

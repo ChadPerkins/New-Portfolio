@@ -6,9 +6,9 @@ import {
     SiLinux,
     SiReact,
     SiCsharp,
-    SiMicrosoftsqlserver,
     SiCplusplus,
-    SiOpengl
+    SiOpengl,
+    SiVulkan
 } from "react-icons/si";
 
 import ProjectCard from "../../components/ProjectCard/ProjectCard";
@@ -59,15 +59,15 @@ function Projects() {
                     </div>
 
                     <div className="icon">
+                        <SiVulkan className="tech-icon" />
+                        <p className="skill-text">Vulkan</p>
+                    </div>
+
+                    <div className="icon">
                         <SiUnity className="tech-icon" />
                         <p className="skill-text">Unity</p>
                     </div>
                     
-                    <div className="icon">
-                        <SiMicrosoftsqlserver className="tech-icon" />
-                        <p className="skill-text">MSSQL Server</p>
-                    </div>
-
                     <div className="icon">
                         <SiGit className="tech-icon" />
                         <p className="skill-text">Git</p>
