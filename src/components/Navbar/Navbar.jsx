@@ -9,13 +9,10 @@ function Navbar() {
     const [showLinks, setShowLinks] = useState(false)
 
     const fetchPDF = () => {
-        fetch('Resume/ChadPerkinsResume.pdf').then(response => {
+        fetch('ChadPerkinsResume.pdf').then(response => {
             response.blob().then(blob => {
-                // Creating new object of PDF file
-                const fileURL = window.URL.createObjectURL(blob);
                 // Setting various property values
                 let alink = document.createElement('a');
-                alink.href = fileURL;
                 alink.download = 'ChadPerkinsResume.pdf';
                 alink.click();
             })
@@ -111,10 +108,12 @@ function Navbar() {
                         <a
                             target="_blank"
                             rel="noreferrer"
+                            href="ChadPerkinsResume.pdf"
                             onClick={fetchPDF}
                         >
                             <FaFilePdf
                                     onClick={() => {setShowLinks(false); setClick(false)}}
+                                    
                                 className="nav-text"
                                 title="Resume"
                             />
