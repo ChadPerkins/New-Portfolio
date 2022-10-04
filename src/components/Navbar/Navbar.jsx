@@ -95,7 +95,7 @@ function Navbar() {
                             />
                         </a>
                         <a
-                            href="../assets/Resume/ChadPerkinsResume.pdf"
+                            href="../../public/assets/Resume/ChadPerkinsResume.pdf"
                             download
                         >
                             <FaFilePdf
