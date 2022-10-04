@@ -95,8 +95,6 @@ function Navbar() {
                             />
                         </a>
                         <a
-                            target="_blank"
-                            rel="noreferrer"
                             href="../assets/Resume/ChadPerkinsResume.pdf"
                             download="ChadPerkinsResume.pdf"
                         >
