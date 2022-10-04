@@ -6,7 +6,21 @@ import "./Navbar.css";
 
 function Navbar() {
     const [click, setClick] = useState(false);
-    const [showLinks, setShowLinks] = useState(false);
+    const [showLinks, setShowLinks] = useState(false)
+
+    const fetchPDF = () => {
+        fetch('Resume/ChadPerkinsResume.pdf').then(response => {
+            response.blob().then(blob => {
+                // Creating new object of PDF file
+                const fileURL = window.URL.createObjectURL(blob);
+                // Setting various property values
+                let alink = document.createElement('a');
+                alink.href = fileURL;
+                alink.download = 'ChadPerkinsResume.pdf';
+                alink.click();
+            })
+        })
+    }
 
     useEffect(() => {
         window.addEventListener(
@@ -95,8 +109,9 @@ function Navbar() {
                             />
                         </a>
                         <a
-                            href="../../public/assets/Resume/ChadPerkinsResume.pdf"
-                            download
+                            target="_blank"
+                            rel="noreferrer"
+                            onClick={fetchPDF}
                         >
                             <FaFilePdf
                                     onClick={() => {setShowLinks(false); setClick(false)}}
