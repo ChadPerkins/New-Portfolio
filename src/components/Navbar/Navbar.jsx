@@ -13,7 +13,6 @@ function Navbar() {
             response.blob().then(blob => {
                 // Setting various property values
                 let alink = document.createElement('a');
-                alink.download = 'ChadPerkinsResume.pdf';
                 alink.click();
             })
         })
@@ -109,6 +108,7 @@ function Navbar() {
                             target="_blank"
                             rel="noreferrer"
                             href="ChadPerkinsResume.pdf"
+                            download={"ChadPerkinsResume.pdf"}
                             onClick={fetchPDF}
                         >
                             <FaFilePdf
