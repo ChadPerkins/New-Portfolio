@@ -96,7 +96,7 @@ function Navbar() {
                         </a>
                         <a
                             href="../assets/Resume/ChadPerkinsResume.pdf"
-                            download="ChadPerkinsResume.pdf"
+                            download
                         >
                             <FaFilePdf
                                     onClick={() => {setShowLinks(false); setClick(false)}}
