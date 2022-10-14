@@ -14,8 +14,16 @@ import OpenGL1 from "../../imgs/OpenGL-GettingStarted.png";
 import OpenGL2 from "../../imgs/LightingAndModels.png";
 import Vulkan1 from "../../imgs/getting-started-with-vulkan.png";
 import Vulkan2 from "../../imgs/vulkan-2d-engine.png";
+import Vulkan3 from "../../imgs/vulkan-engine.png";
 
 export const projects = [
+    {
+        title: "Vulkan Engine",
+        description:
+            `This is my completed project following along the "Vulkan Game Engine Tutorial" by Brendan Galea.`,
+        img: Vulkan3,
+        github: "https://github.com/ChadPerkins/Vulkan-Second-Project",
+    },
     {
         title: "Vulkan 2D Engine",
         description:
