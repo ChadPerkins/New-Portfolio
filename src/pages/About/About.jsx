@@ -1,4 +1,4 @@
-import ecePic from "../../imgs/ece.jpg";
+import ecePic from "../../imgs/ece.jpg"
 import "./About.css";
 
 const About = () => {

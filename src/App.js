@@ -1,5 +1,10 @@
 import "./App.css";
-import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
+import {
+    BrowserRouter as Router,
+    Routes,
+    Route,
+    Navigate,
+} from "react-router-dom";
 
 import About from "./pages/About/About";
 import Contact from "./pages/Contact/Contact";
@@ -16,7 +21,7 @@ function App() {
                 <Route path="/about" element={<About />} />
                 <Route path="/projects" element={<Projects />} />
                 <Route path="/contact" element={<Contact />} />
-                <Route path="*" element={<Navigate to="/"/>} />
+                <Route path="*" element={<Navigate to="/" />} />
             </Routes>
         </Router>
     );

@@ -1,16 +1,51 @@
+.container {
+    width: 50%;
+    display: flex;
+    justify-content:space-around;
+}
 
-.cube {
+.cube-one {
     position: relative;
     margin: 4rem auto;
     height: 100px;
     width: 100px;
-    animation: 8s rotation infinite linear;
+    animation: 8s rotation1 infinite linear;
     transform-style: preserve-3d;
 }
 
-@keyframes rotation {
+.cube-two {
+    position: relative;
+    margin: 4rem auto;
+    height: 100px;
+    width: 100px;
+    animation: 8s rotation3 infinite linear;
+    transform-style: preserve-3d;
+}
+
+.cube-three {
+    position: relative;
+    margin: 4rem auto;
+    height: 100px;
+    width: 100px;
+    animation: 8s rotation2 infinite linear;
+    transform-style: preserve-3d;
+}
+
+@keyframes rotation1 {
     to {
         transform: rotateY(360deg);
+    }
+}
+
+@keyframes rotation2 {
+    to {
+        transform: rotateY(-360deg);
+    }
+}
+
+@keyframes rotation3 {
+    to {
+        transform: rotatex(360deg);
     }
 }
 
@@ -22,82 +57,93 @@
 }
 
 .front {
-    background-color: transparent;
+    background-color: rgba(133, 54, 223, 0.1);
     -webkit-transform: rotateX(-54.7356deg) rotateY(45deg) translateZ(50px);
     transform: rotateX(-54.7356deg) rotateY(45deg) translateZ(50px);
 }
 
 .back {
-    background-color: transparent;
+    background-color: rgba(133, 54, 223, 0.1);
     -webkit-transform: rotateX(-54.7356deg) rotateY(135deg) translateZ(50px);
     transform: rotateX(-54.7356deg) rotateY(135deg) translateZ(50px);
 }
 
 .left {
-    background-color: transparent;
+    background-color: rgba(133, 54, 223, 0.1);
     -webkit-transform: rotateX(-54.7356deg) rotateY(225deg) translateZ(50px);
     transform: rotateX(-54.7356deg) rotateY(225deg) translateZ(50px);
 }
 
 .right {
-    background-color: transparent;
+    background-color: rgba(133, 54, 223, 0.1);
     -webkit-transform: rotateX(-54.7356deg) rotateY(315deg) translateZ(50px);
     transform: rotateX(-54.7356deg) rotateY(315deg) translateZ(50px);
 }
 
 .top {
-    background-color: transparent;
+    background-color: rgba(133, 54, 223, 0.1);
     -webkit-transform: rotateX(35.2644deg) rotateZ(-45deg) translateZ(50px);
     transform: rotateX(35.2644deg) rotateZ(-45deg) translateZ(50px);
 }
 
 .bottom {
-    background-color: transparent;
+    background-color: rgba(133, 54, 223, 0.1);
     -webkit-transform: rotateX(35.2644deg) rotateY(180deg) rotateZ(-45deg)
         translateZ(50px);
     transform: rotateX(35.2644deg) rotateY(180deg) rotateZ(-45deg)
         translateZ(50px);
 }
 
+@media (max-width: 1020px) {
+    .cube-one, .cube-three {
+        display: none;
+    }
+}
+
 @media (max-width: 430px) {
-    .cube {
+    .cube-two {
         margin: 2rem;
         width: 60px;
         height: 60px;
     }
+    
+
+    .cube-three {
+        display: none;
+    }
 
     .front {
-        background-color: transparent;
+        background-color: rgba(133, 54, 223, 0.1);
         -webkit-transform: rotateX(-54.7356deg) rotateY(45deg) translateZ(30px);
         transform: rotateX(-54.7356deg) rotateY(45deg) translateZ(30px);
     }
     
     .back {
-        background-color: transparent;
+        background-color: rgba(133, 54, 223, 0.1);
         -webkit-transform: rotateX(-54.7356deg) rotateY(135deg) translateZ(30px);
         transform: rotateX(-54.7356deg) rotateY(135deg) translateZ(30px);
     }
     
     .left {
-        background-color: transparent;
+        background-color: rgba(133, 54, 223, 0.1);
         -webkit-transform: rotateX(-54.7356deg) rotateY(225deg) translateZ(30px);
         transform: rotateX(-54.7356deg) rotateY(225deg) translateZ(30px);
     }
     
     .right {
-        background-color: transparent;
+        background-color: rgba(133, 54, 223, 0.1);
         -webkit-transform: rotateX(-54.7356deg) rotateY(315deg) translateZ(30px);
         transform: rotateX(-54.7356deg) rotateY(315deg) translateZ(30px);
     }
     
     .top {
-        background-color: transparent;
+        background-color: rgba(133, 54, 223, 0.1);
         -webkit-transform: rotateX(35.2644deg) rotateZ(-45deg) translateZ(30px);
         transform: rotateX(35.2644deg) rotateZ(-45deg) translateZ(30px);
     }
     
     .bottom {
-        background-color: transparent;
+        background-color: rgba(133, 54, 223, 0.1);
         -webkit-transform: rotateX(35.2644deg) rotateY(180deg) rotateZ(-45deg)
             translateZ(30px);
         transform: rotateX(35.2644deg) rotateY(180deg) rotateZ(-45deg)
