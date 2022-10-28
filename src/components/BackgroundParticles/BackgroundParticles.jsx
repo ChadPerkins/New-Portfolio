@@ -50,10 +50,10 @@ function BackgroundParticles() {
             value: "#8536df",
           },
           links: {
-            color: "#ffffff",
+            color: "#d3cccc",
             distance: 150,
             enable: true,
-            opacity: 0.2,
+            opacity: 0.1,
             width: 1,
           },
           collisions: {
