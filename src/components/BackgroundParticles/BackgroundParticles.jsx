@@ -53,7 +53,7 @@ function BackgroundParticles() {
             color: "#d3cccc",
             distance: 150,
             enable: true,
-            opacity: 0.1,
+            opacity: 0.2,
             width: 1,
           },
           collisions: {
@@ -74,7 +74,7 @@ function BackgroundParticles() {
               enable: true,
               area: 800,
             },
-            value: 60,
+            value: 80,
           },
           opacity: {
             value: 0.5,
