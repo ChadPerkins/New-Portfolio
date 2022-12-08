@@ -43,7 +43,7 @@ export const projects = [
         description:
             `This is my completed work along project following the "Lighting" and "Model Loading" sections from the "LearnOpenGL.com" book.`,
         img: OpenGL2,
-        github: "https://github.com/ChadPerkins/Prototype5",
+        github: "https://github.com/ChadPerkins/LightingOpenGL",
     },
     {
         title: "Getting Started with OpenGL",
